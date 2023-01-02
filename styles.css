@@ -1,0 +1,705 @@
+body
+{
+    overflow-x: hidden;
+    background-color: black;
+}
+.mycontainer1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 9;
+}
+
+.mycontainer1 h2
+{
+    font-size: 2.3rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.mycontainer1 li {
+    list-style-type: none;
+    margin: 0rem 1rem;
+    font-size: 1.5rem;
+}
+
+.mycontainer1 span#surname {
+    color: crimson;
+}
+
+.mycontainer1 .mylogo{
+    display: flex;
+    align-items: center;
+}
+
+#click:checked~nav{
+    left: 0%;
+    transition: all 0.5s ease-in-out;
+}
+
+#click:not(:checked)~nav{
+    left: 100%;
+    transition: all 0.5s ease-in-out;
+}
+
+#click
+{
+    display: none;
+}
+
+.mycontainer1 i{
+    display: none;
+}
+
+#btn1{
+    background-color: crimson;
+    color: white;
+    border: none;
+    padding: 0rem 1rem;
+    font-size: 1.6rem;
+    margin: .75rem 0rem;
+}
+
+#img1
+{
+    position: relative;
+    z-index: -1;
+}
+
+#name{
+    background: linear-gradient(90deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 100%, 64%, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.mycontainer2 {
+    position: relative;
+}
+
+.mydata {
+    position: absolute;
+    right: 19px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.mydata h1{
+    font-size: 4rem;
+    color: white;
+}
+
+#btn2
+{
+    background:none;
+    color: white;
+    border: none;
+    font-size: 1.6rem;
+}
+
+#btn3{
+    background-color: crimson;
+    color: white;
+    border: none;
+    padding: 0rem 1rem;
+    font-size: 1.6rem;
+    margin: .75rem 0rem;
+}
+
+.mycontainer3
+{
+    background-color: rgb(38, 38, 38);
+}
+
+.mycontainer3 h2
+{
+    text-align: center;
+    color: white;
+    font-size: 9rem;
+    background-image: url(https://images.unsplash.com/photo-1628273321790-8db61d09f060?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx2aXN1YWwtc2VhcmNofDE4fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-attachment: fixed;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    padding: 2rem 0rem;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.mycontainer4{
+    display: grid;
+    grid-template-areas:
+    "b1 b1 b1 b1 b1 b1"
+    "b2 b2 b2 b3 b3 b3"
+    "b4 b4 b4 b4 b4 b4"
+    "b5 b5 b5 b6 b6 b6"
+    "b7 b7 b7 b8 b8 b8"
+    "b9 b9 b9 b9 b9 b9";
+    grid-gap: 1rem;
+}
+
+.mybox{
+    border-radius: 1rem;
+    padding-top: 1rem;
+}
+
+#box1
+{
+    grid-area: b1;
+    background-color: black;
+}
+
+/* #box1 h2
+{
+    font-size: 5rem;
+    color: whitesmoke;
+    font-size: 8rem;
+    font-family: 'Libre Franklin', sans-serif;
+} */
+
+#box1 p
+{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #495057;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    background-color: #1d1d1d;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .wrapper {
+    display: flex;
+    height: fit-content;
+  }
+  
+  .wrapper h1 {
+    max-width: 75%;
+    font-size: 8rem;
+    font-family: 'Libre Franklin', sans-serif;
+    color: #540032;
+    margin: 0px;
+  }
+  
+  .title {
+    background-image: url(https://cdn.pixabay.com/photo/2017/07/03/20/17/abstract-2468874_960_720.jpg);
+    background-attachment: fixed;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+  
+
+#box2
+{
+    grid-area: b2;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#box2 h2
+{
+    font-size: 3rem;
+    color: white;
+    padding: 2rem;
+}
+
+#box2 p
+{
+    font-size: 1.5rem;
+    color: white;
+    margin: 4rem 2rem;
+}
+
+#box2 .box2data
+{
+    background-color: #212529;
+    height: fit-content;
+    border-radius: 1rem;
+}
+
+#box3
+{
+    grid-area: b3;
+    padding: 1rem;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.minibox
+{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-areas: 
+    "m1 m2"
+    "m3 m4";
+}
+
+.mymb
+{
+    height: fit-content;
+    width: 16rem;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem 0rem;
+    padding: 2.3rem 2rem;
+    color: white;
+    background-color: #212529;
+    border-radius: 1rem;
+}
+
+.mymb h2
+{
+    font-size: 5rem;
+}
+
+.mymb span
+{
+    font-size: 2rem;
+}
+
+.mymb .clients
+{
+    display: flex;
+    align-items: flex-start;
+    background: linear-gradient(90deg, hsla(152, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.mymb .exp
+{
+    display: flex;
+    align-items: flex-start;
+    background: linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.mymb .proj
+{
+    display: flex;
+    align-items: flex-start;
+    background: linear-gradient(90deg, hsla(167, 68%, 73%, 1) 0%, hsla(178, 59%, 48%, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.mymb .passion
+{
+    display: flex;
+    align-items: flex-start;
+    background: linear-gradient(90deg, hsla(270, 94%, 25%, 1) 0%, hsla(158, 94%, 49%, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#mini1
+{
+    grid-area: m1;
+}
+
+#mini2
+{
+    grid-area: m2;
+}
+
+#mini3
+{
+    grid-area: m3;
+}
+
+#mini4
+{
+    grid-area: m4;
+}
+
+#box4
+{
+    grid-area: b4;
+    height: fit-content;
+}
+
+#myvideo
+{
+    width: 100%;
+}
+
+.animation
+{
+    color: white;
+    margin: 0px;
+    z-index: 1;
+    position: absolute;
+}
+
+.animation h2
+{
+    font-size: 5rem;
+    margin: 1rem;
+    background: linear-gradient(90deg, hsla(52, 82%, 52%, 1) 0%, hsla(1, 92%, 47%, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+#box5
+{
+    grid-area: b5;
+    display: grid;
+    background-color: #212529;
+    color: white;
+}
+
+.mybar
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+
+#box5 .bar
+{
+    width: 3rem;
+    background: linear-gradient(0deg, hsla(235, 100%, 78%, 1) 0%, hsla(222, 77%, 33%, 1) 100%);
+    margin-bottom: 0.3rem;
+}
+
+#bar1
+{
+    height: 2rem;
+}
+
+#bar2
+{
+    height: 4rem;
+}
+
+#bar3
+{
+    height: 6rem;
+}
+
+#bar4
+{
+    height: 10rem;
+}
+
+#bar5
+{
+    height: 15rem;
+}
+#box6
+{
+    grid-area: b6;
+    background-image: url(/images/img2.png);
+    height: 22rem;
+    background-size: cover;
+    background-position: 0rem -3rem;
+    background-repeat: no-repeat;
+    color: white;
+    background-color: #212529;
+}
+#box7
+{
+    grid-area: b7;
+    background-image: url(/images/img3.jpg);
+    background-size: cover;
+    height: 22rem;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+#box8
+{
+    grid-area: b8;
+    background-color: #212529;
+    color: white;
+
+}
+
+#box8 .duration{
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#box8 .duration #timing
+{
+    margin: 3rem;
+}
+
+#box8 .duration #months
+{
+    text-decoration: line-through;
+    font-size: 3rem;
+    margin: 0px;
+    color: #adb5bd;
+}
+
+#box8 .duration #weeks
+{
+    font-size: 4rem;
+    margin: 0px;
+    background: linear-gradient(90deg, hsla(159, 82%, 55%, 1) 0%, hsla(206, 98%, 48%, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#box9
+{
+    grid-area: b9;
+    background: linear-gradient(120deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 100%, 64%, 1) 100%);
+    text-align: center;
+    padding: 3rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#box9 button
+{
+    width: 13%;
+}
+
+#box9 h2
+{
+    font-size: 4rem;
+    color: white;
+}
+
+#box10
+{
+    grid-area: b10;
+}
+
+#box11
+{
+    grid-area: b11;
+}
+
+.mycontainer5
+{
+    background-color: #222222;
+}
+
+.mycontainer5 .myprojects
+{
+    padding: 1rem;
+}
+
+.mycontainer5 h1
+{
+    font-size: 5rem;
+    background-image: url(https://images.unsplash.com/photo-1608501712351-a4ca8dc996fb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDIwfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-attachment: fixed;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 900;
+}
+
+.mycontainer5 .card
+{
+    border: none;
+}
+
+.mycontainer6
+{
+    display: flex;
+    justify-content: center;
+
+}
+
+.mycontainer6 input {
+    width: 87%;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    margin: 1.2rem .50rem;
+    outline: none;
+}
+
+.mycontainer6 form
+{
+    margin-top: 4rem;
+}
+
+.mycontainer6 i
+{
+    font-size: 2rem;
+    cursor: pointer;
+
+}
+
+.mycontainer6 .socialmedia
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#github
+{
+    color: black;
+}
+
+#instagram
+{
+    background: linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#hackerrank
+{
+    color: #55a630;
+}
+
+#linkedin
+{
+    color: #014f86;
+}
+
+#twitter
+{
+    color: #5fa8d3;
+}
+
+.mycontainer6 .send
+{
+ display: flex;
+ justify-content: center;
+}
+
+#sendbtn
+{
+    width: 55%;
+}
+
+@media(max-width:971px)
+{
+    nav{
+        display: block;
+        position: fixed;
+        top: 3rem;
+        line-height: 6rem;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.741);
+    }
+
+    .mycontainer1 i{
+        display: block;
+    }
+
+    .mycontainer4
+    {
+        grid-template-areas: 
+        "b1 b1 b1 b1 b1 b1"
+        "b2 b2 b2 b2 b2 b2"
+        "b3 b3 b3 b3 b3 b3"
+        "b4 b4 b4 b4 b4 b4"
+        "b5 b5 b5 b5 b5 b5"
+        "b6 b6 b6 b6 b6 b6"
+        "b7 b7 b7 b7 b7 b7"
+        "b7 b7 b7 b7 b7 b7"
+        "b8 b8 b8 b8 b8 b8"
+        "b9 b9 b9 b9 b9 b9";
+    }
+
+    .mymb
+    {
+        /* width: 100%; */
+        display: flex;
+        height: 10rem;
+        align-items: baseline;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .minibox
+    {
+        grid-gap: 1rem;
+        width: 90%;
+    }
+
+    .mydata h1
+    {
+        font-size: 2rem;
+    }
+
+    .wrapper h1
+    {
+        font-size: 3rem;
+    }
+
+    #btn2 , #btn3
+    {
+        font-size: 1rem;
+    }
+
+    .mycontainer3 h2{
+        font-size: 2rem;
+    }
+
+    #box1 h2
+    {
+        font-size: 2rem;
+    }
+
+    #box2 h2{
+        font-size: 2rem;
+        margin: 0rem 0rem;
+    }
+
+    #box2 p{
+        font-size: 1.3rem;
+        margin: 0rem 1rem;
+    }
+
+    .animation h2{
+        font-size: 2rem;
+    }
+
+    #box9 h2{
+        font-size: 2rem;
+    }
+
+    .mycontainer5 h1{
+        font-size: 2rem;
+    }
+}
+
+@media(max-width:552px)
+{
+    .minibox
+    {
+        grid-template-areas: 
+        "m1 m1"
+        "m2 m2"
+        "m3 m3"
+        "m4 m4";
+    }
+
+    .mydata h1
+    {
+        font-size: 1.6rem;
+    }
+
+    #btn2 , #btn3
+    {
+        font-size: 0.85rem;
+    }
+}
