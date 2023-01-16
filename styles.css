@@ -154,13 +154,6 @@ nav {
     background-color: black;
 }
 
-/* #box1 h2
-{
-    font-size: 5rem;
-    color: whitesmoke;
-    font-size: 8rem;
-    font-family: 'Libre Franklin', sans-serif;
-} */
 
 #box1 p
 {
@@ -231,7 +224,6 @@ body {
 {
     grid-area: b3;
     padding: 1rem;
-    background-color: black;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -517,6 +509,11 @@ body {
 {
     border: none;
 }
+
+img.card-img-top {
+    cursor: pointer;
+}
+
 
 .mycontainer6
 {
