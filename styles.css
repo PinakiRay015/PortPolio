@@ -425,7 +425,7 @@ body {
     hsla(197, 100%, 64%, 1) 100%
   );
   text-align: center;
-  padding: 3rem;
+  padding: 3rem; 
   height: 20rem;
   display: flex;
   flex-direction: column;
